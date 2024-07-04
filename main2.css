@@ -1,0 +1,177 @@
+.fl{
+    display: flex;
+}
+
+header{
+    justify-content:space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.logo-container
+.auth-container{
+    flex: 1;
+}
+
+.auth-container{
+    text-align: center;
+}
+
+ul{
+    justify-content: center;
+}
+
+.nav-container{
+    flex: 2;
+}
+:root{
+ --bisque-color:rgba(229, 190, 190, 0.93);
+ --dark-text:#A0583C;
+}
+
+header a {
+    color:var(--bisque-color);
+}
+
+.Bg{
+    width: 100%;
+}
+
+.logo{
+font-size: 24px;
+font-family:Roboto;
+font-style: italic;
+font-weight: 100px;
+}
+
+.banner{
+    position: absolute;
+    top:400px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: bisque;
+    text-decoration: none;
+}
+
+.coof{
+    border: 2px ;
+    font-size: 3.5rem;
+    
+}
+
+.top{
+    color:var(--bisque-color) ;
+   
+    position: relative;
+}
+
+header{
+     padding: 30px;
+}
+
+.btn{
+    color: var(--bisque-color);
+    font-family: Roboto;
+    font-weight: 400px;
+    background-color: var(--dark-text);
+    border-radius: 8px;
+    border: solid ;
+    font-size: 2rem;
+
+}
+
+
+.btn.small{
+    font-size: 12px; 
+    padding: 12px;
+    margin: 15px;
+}
+
+.Logo{
+    position: relative;
+   
+}
+
+.tor{
+    font-size: 2.5rem;
+}
+
+fieldset{
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+legend{
+     color: #A0583C;
+     font-size: 20pxs;
+}
+
+.card-img{
+    width: 100%;
+}
+
+.card-deretion,
+.card-price{
+    margin: 5px 0px;
+}
+
+.card-deretion{
+    font-size:22px ;
+    text-decoration:#ffffff;
+    font-weight: 400px;
+
+}
+
+.reD{
+    text-align: center;
+    background: rgb(255, 255, 255);
+    padding: 40px 20px;
+    font-size:21px ;
+    text-decoration:#333;
+    font-weight: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:20px;
+    padding: 200px;
+    margin: 5px 0px;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    padding: 20px 10px;
+    line-height: 20px;
+
+}
+
+.gd {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap:40px;
+}
+
+.tii{
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.card{
+    text-align: center;
+    background: rgba(162, 102, 0, 0.784);
+    padding: 40px 10px;
+}
+
+.cord-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap:20px;
+    padding: 100px;
+}
+
+.end{
+    font-size: 2.5rem;
+}
